@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Dimensio</string>
+    <string name="title_activity_main">Dimensio</string>
+    <string name="package_name">com.dimensio.devnestbylance.app</string>
+    <string name="custom_url_scheme">com.dimensio.devnestbylance.app</string>
+</resources>

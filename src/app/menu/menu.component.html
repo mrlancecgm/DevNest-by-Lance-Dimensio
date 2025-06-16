@@ -1,0 +1,39 @@
+<ion-menu type="overlay" menuId="main-menu" #menu contentId="menu-content">
+  <ion-content class="ion-no-border">
+    <div style="padding-left: 20px">
+      <ion-list lines="none" (click)="goTo('about-app')">
+        <ion-item>
+          <ion-icon name="information-circle-outline" slot="start"></ion-icon>
+          <ion-label>About SIDC E-Collect</ion-label>
+        </ion-item>
+      </ion-list>
+    </div>
+  </ion-content>
+  <ion-footer class="ion-no-border" style="margin-bottom: 90px">
+    <div style="display: flex; justify-content: center">
+      <div
+        class="ion-activatable"
+        style="
+          justify-content: center;
+          font-size: larger;
+          display: flex;
+          background-color: #166618;
+          color: #ffffff;
+          padding: 20px;
+          border-radius: 20px;
+          width: 50%;
+          position: relative;
+        "
+      >
+        <ion-ripple-effect></ion-ripple-effect>
+        <ion-icon
+          style="color: white; margin-right: 10px"
+          name="exit-outline"
+        ></ion-icon
+        ><span style="white-space: nowrap">Log out</span>
+      </div>
+    </div>
+  </ion-footer>
+</ion-menu>
+
+<ion-alert></ion-alert>

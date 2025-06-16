@@ -1,0 +1,16 @@
+ion-modal#result-modal {
+  --width: 75%;
+  --border-radius: 6px;
+  --height: fit-content;
+  --backdrop-opacity: 0.32 !important;
+}
+
+.measurement-value{
+    color: #3ea39b;
+    font-size: calc(var(--valFontSize));
+    font-weight: 900;
+}
+
+.measurement-text{
+    color: #8e8e8e;
+}

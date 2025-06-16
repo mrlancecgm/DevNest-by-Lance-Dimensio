@@ -1,0 +1,27 @@
+.auth-network-div-show {
+    width: 98%;
+    border-radius: 10px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    animation: slideIn 1s ease-in-out forwards; 
+    z-index: 10;
+}
+
+.auth-network-div-hide {
+    width: 98%;
+    border-radius: 10px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    animation: slideOut 1s ease-in-out forwards; 
+    z-index: 10;
+}
+
+.auth-network-card-offline {
+    background-color: #f21832; padding: 5px 8px
+}
+
+.auth-network-card-online {
+    background-color: #166618; padding: 5px 8px
+}
