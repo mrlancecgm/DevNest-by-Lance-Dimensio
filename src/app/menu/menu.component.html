@@ -1,39 +1,36 @@
 <ion-menu type="overlay" menuId="main-menu" #menu contentId="menu-content">
+  <ion-header class="ion-no-border">
+    <div class="d-flex-align-all-center d-flex-column" style="margin-top: 10%">
+      <img
+        src="../../assets/icon/dimensio.png"
+        width="50%"
+      /><br />
+      <img
+        style="border-radius: 30px;"
+        src="../../assets/icon/devnest-by-lance.png"
+        width="50%"
+      />
+    </div>
+  </ion-header>
   <ion-content class="ion-no-border">
-    <div style="padding-left: 20px">
-      <ion-list lines="none" (click)="goTo('about-app')">
-        <ion-item>
-          <ion-icon name="information-circle-outline" slot="start"></ion-icon>
-          <ion-label>About SIDC E-Collect</ion-label>
-        </ion-item>
-      </ion-list>
+    <div style="padding: 20px;margin-top: 10px 0;text-align: justify;" class="d-flex-align-all-center d-flex-column">
+      <span style="text-align: justify;margin-bottom: 10px;"
+        >Dimensio is a lightweight mobile application designed to instantly
+        display the innerWidth and innerHeight of the device it’s installed on.
+      </span>
+      <span style="text-align: justify;margin-bottom: 10px;"
+        >Perfect for developers, it provides a quick reference to a device’s
+        screen dimensions in pixels—ideal for testing layouts, building
+        responsive designs, or targeting specific screen sizes during
+        development.
+      </span>
+
+      <span style="text-align: justify; margin-bottom: 10px"
+        >&copy; 2025. DevNest by Lance. All rights reserved.
+      </span>
+
     </div>
   </ion-content>
-  <ion-footer class="ion-no-border" style="margin-bottom: 90px">
-    <div style="display: flex; justify-content: center">
-      <div
-        class="ion-activatable"
-        style="
-          justify-content: center;
-          font-size: larger;
-          display: flex;
-          background-color: #166618;
-          color: #ffffff;
-          padding: 20px;
-          border-radius: 20px;
-          width: 50%;
-          position: relative;
-        "
-      >
-        <ion-ripple-effect></ion-ripple-effect>
-        <ion-icon
-          style="color: white; margin-right: 10px"
-          name="exit-outline"
-        ></ion-icon
-        ><span style="white-space: nowrap">Log out</span>
-      </div>
-    </div>
-  </ion-footer>
 </ion-menu>
 
 <ion-alert></ion-alert>

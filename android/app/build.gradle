@@ -24,7 +24,7 @@ android {
     }
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
-            def newApkName = "sidc-e-collect-mobile.apk"
+            def newApkName = "dimensio-devnest-by-lance.apk"
             outputFileName = newApkName
         }
     }

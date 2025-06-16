@@ -23,12 +23,7 @@ export class HomePage implements OnInit {
   @ViewChild('resultModal') resultModal!: IonModal;
   @ViewChild(IonLoading) loading!: IonLoading;
 
-  constructor(
-    private datePipe: DatePipe,
-    private router: Router,
-    private activatedRoute: ActivatedRoute
-  ) {
-  }
+  constructor() {}
 
   ionViewWillEnter() {
   }
@@ -43,11 +38,6 @@ export class HomePage implements OnInit {
     this.loading.dismiss();
     this.resultModal.present();
   }
-
-  goTo(targetRoute: string) {
-    this.router.navigate([`/application/${targetRoute}`]);
-  }
-
   ngAfterViewInit(){
     this.setStyles();
   }
